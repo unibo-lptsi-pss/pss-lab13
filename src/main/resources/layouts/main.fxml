@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="689.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <BorderPane prefHeight="655.0" prefWidth="974.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label alignment="TOP_CENTER" prefHeight="38.0" prefWidth="672.0" styleClass="title-2" text="Scheda" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Inconsolata Condensed Black" size="13.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <ScrollPane id="main-pane" fitToHeight="true" fitToWidth="true" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+   </center>
+   <left>
+      <BorderPane prefHeight="689.0" prefWidth="261.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label alignment="TOP_CENTER" prefHeight="53.0" prefWidth="261.0" styleClass="title-2" text="Workout Builder" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Inconsolata Condensed Black" size="13.0" />
+               </font>
+            </Label>
+         </top>
+         <right>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </right>
+         <center>
+            <VBox alignment="TOP_CENTER" prefHeight="649.0" prefWidth="268.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="TOP_CENTER" text="Esercizio" textAlignment="CENTER" />
+                  <ComboBox prefWidth="150.0" />
+                  <Label alignment="TOP_CENTER" text="Ripetizioni" textAlignment="CENTER" />
+                  <TextField prefHeight="36.0" prefWidth="213.0" />
+                  <Label alignment="TOP_CENTER" text="Serie" textAlignment="CENTER" />
+                  <TextField />
+                  <Label alignment="TOP_CENTER" text="Giorno" textAlignment="CENTER" />
+                  <ComboBox prefWidth="150.0" />
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </left>
+   <stylesheets>
+      <URL value="@../css/dracula.css" />
+      <URL value="@../css/style.css" />
+   </stylesheets>
+</BorderPane>

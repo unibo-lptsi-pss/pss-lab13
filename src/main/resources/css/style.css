@@ -1,0 +1,21 @@
+
+.exercise {
+    -fx-background-color: -color-base-8;
+    -fx-border-color: #464646;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-border-insets: 5px;
+    -fx-spacing: 10px;
+}
+
+#main-pane {
+    -fx-padding: 0px 20px 0px 10px;
+}
+
+.exercise-container {
+    -fx-spacing: 10px;
+}
+
+#root {
+    -fx-padding: 10px;
+}
